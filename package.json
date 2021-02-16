@@ -1,0 +1,22 @@
+{
+  "name": "notetaker",
+  "version": "1.0.0",
+  "description": "Node.js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan7998/notetaker.git"
+  },
+  "author": "Fazle Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan7998/notetaker/issues"
+  },
+  "homepage": "https://github.com/ryan7998/notetaker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
