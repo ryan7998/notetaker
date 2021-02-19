@@ -34,10 +34,11 @@ const getNotes = () =>
   });
 
 const saveNote = (note) =>
-  fetch('/api/notes', {
+ fetch('/api/notes', {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify(note),
   });
@@ -57,8 +58,11 @@ const renderActiveNote = () => {
     noteTitle.setAttribute('readonly', true);
     noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
-    noteText.value = activeNote.title;
+    noteText.value = activeNote.text;
   } else {
+    noteTitle.removeAttribute("readonly");
+    noteText.removeAttribute("readonly");
+
     noteTitle.value = '';
     noteText.value = '';
   }
@@ -69,7 +73,9 @@ const handleNoteSave = () => {
     title: noteTitle.value,
     text: noteText.value,
   };
-  saveNote(newNote).then(() => {
+  
+  saveNote(newNote)
+  .then(() => {
     getAndRenderNotes();
     renderActiveNote();
   });
