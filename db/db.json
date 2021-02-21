@@ -1,27 +1,7 @@
 [
   {
-    "title": "task 1",
-    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    "id": "bf35b8e5-03ca-48cf-a819-ccfd4c965714"
-  },
-  {
-    "title": "task 2",
-    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    "id": "828786f5-bb6d-4746-8d9a-46097bd15285"
-  },
-  {
-    "title": "task 3",
-    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    "id": "09f0162e-e4c5-4b7c-ba6c-4c7a7fc54798"
-  },
-  {
-    "title": "last task",
-    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    "id": "33c6d7d6-8154-46ef-a5c3-5b1c209d6095"
-  },
-  {
-    "title": "task version 2 1",
-    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    "id": "8066f8ba-77f0-4ea4-941a-8f646a20bde6"
+    "title": "TEST NOTE 1",
+    "text": "test content goes here..",
+    "id": "723c25e4-ad9b-401b-921c-554eb58d42b5"
   }
 ]
